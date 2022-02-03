@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is html page</title>
+    <style>
+        .text {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            line-height: 15px;
+            text-shadow: 5px 5px 5px rgb(248, 79, 79);
+        }
+        
+        div {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: burlywood;
+        }
+        
+        legend {
+            text-align: center;
+        }
+        
+        body {
+            background-color: rgb(245, 174, 174);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend class="text">Basic information:</legend>
+                <br><br>
+                <label for="fname">First Name :</label>
+                <input type="text" name="first_name" placeholder="Enter first name" id="fname">
+                <br><br>
+                <label for="lname">Last Name :</label>
+                <input type="text" name="last_name" placeholder="Enter last name" id="lname">
+                <br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+
+                <legend class="text">Other information:</legend>
+                <br><br>
+                <label for="address">Address:</label>
+                <input type="text" name="address" placeholder="Enter address" id="address">
+                <br><br>
+                <label for="contact">Contact :</label>
+                <input type="text" name="contact" placeholder="Enter contact" id="contact">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
